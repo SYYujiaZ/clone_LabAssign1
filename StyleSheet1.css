@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(background_try.jpg);
+}
+
+/*basically we use this to have a nicer background for reading*/
+.contents {
+    background-color: rgba(51, 51, 51, 0.658);
+    color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 0.5em;
+    padding: 2%;
+}
+
+/*text style*/
+.contents h1, h2, h3 {
+    font-family: headingfont;
+    text-align: center;
+    color: white;
+}
+
+/*text style*/
+.contents p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: rgba(182, 171, 171, 0.726);
+    color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 0.5em;
+    padding: 2%;
+}
+
+/*navigation bar style*/
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(161, 173, 92, 0.658);
+}
+
+
+/*navigation button style*/
+.nav li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Mouse moving effect*/
+.nav li a:hover{
+    background-color:powderblue;
+}
